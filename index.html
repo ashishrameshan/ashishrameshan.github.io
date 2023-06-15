@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Rameshan | Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-logo-container">
+            <span>Ashish Rameshan</span>
+        </div>
+        <nav class="header-nav">
+            <a onclick="focusAndScrollViewElement('home')">Home</a>
+            <a onclick="focusAndScrollViewElement('about-me')">About</a>
+            <a onclick="focusAndScrollViewElement('contact-me')">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home -->
+        <section id="home">
+            <img src="images/logo.jpg" alt="My Image">
+            <h1>Software Engineer | Full Stack Deveoper</h1>
+            <p>"Programming is not just about writing code it's about creating solutions, unraveling puzzles, and embracing the joy of problem solving."</p>
+        </section>
+
+        <!-- About Me -->
+        <section id="about-me">
+            <div class="flex-container">
+                <div class="intro container" id="intro">
+                    <h2>Hi, I am Ashish. Nice to meet you.</h2>
+                    <p>I am a dedicated full stack developer who found my true passion in software development. I have hands on 4+ years of experience.</p>
+                    <p>Even though my academic background took me on a different path, joining the IT industry , I discovered my calling in programming and problem-solving. The sheer joy I experience from building functional and efficient programs, regardless of their complexity, is immeasurable.</p>
+                    <p>Moreover, I have a deep desire to constantly expand my knowledge, explore new technologies, and embrace innovative techniques. This drive fuels my continuous growth as a developer, enabling me to stay at the forefront of the ever-evolving world of technology.</p>
+                </div>
+                <div class="expertise container" id="expertise">
+                    <h2 class="text-center">My Expertise</h2>
+                    <div class="expertise-content">
+                        <div class="expertise-item">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>Experienced in OOP: Java</li>
+                                <li>Framework: Spring Boot</li>
+                                <li>Monolith, Multi-Module & Microservices Architecture</li>
+                                <li>SQL (MySQL,PostgreSQL) and No-SQL (MongoDB) Database</li>
+                                <li>CI/CD: Jenkins, Google Cloud Build</li>
+                                <li>REST APIs</li>
+                                <li>Cloud services: GCP & AWS</li>
+                            </ul>
+                        </div>
+                        <div class="expertise-item">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>Languages: HTML, CSS, Javascript, TypeScript</li>
+                                <li>Framework: React, Angular</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my-projects">
+                <h2 class="text-center">Recent Projects</h2>
+                <div class="flex-container justify-space-evenly">
+                    <div class="project-item">
+                        <h3>Gajana</h3>
+                        <p>Online restaurant food ordering & delivery platform and POS software.</p>
+                        <ul>
+                            <li>Develop high-quality software design and architecture.</li>
+                            <li>Backend: Java, Spring Boot</li>
+                            <li>Database: MongoDB</li>
+                            <li>Architecture: Microservices</li>
+                            <li>Serverless: Google Cloud AppEngine</li>
+                            <li>CI/CD: Google Cloud Build</li>
+                            <li>Frontend: Angular</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>3Diligent</h3>
+                        <p>3Diligent provides platform to create qualified and networked dozens of service providers with industrial grade 3D Printing machinery for customers.</p>
+                        <ul>
+                            <li>Backend: Java, Spring Boot</li>
+                            <li>Database: PostgreSQL</li>
+                            <li>Architecture: Microservices</li>
+                            <li>CI/CD: Jenkins</li>
+                            <li>Frontend: Angular</li>
+                        </ul>
+                    </div>
+                    <div class="project-item">
+                        <h3>Corticare</h3>
+                        <p>CortiCare provides continuous EEG Services for the ICU, NICU or EMU using a robust infrastructure of monitoring personnel and reading neurophysiologists.</p>
+                        <ul>
+                            <li>Backend: Java, Spring Boot</li>
+                            <li>Database: MySQL</li>
+                            <li>Architecture: Monolith</li>
+                            <li>Frontend: React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <!-- Contact Me -->
+        <section id="contact-me" class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="communication">
+                <div class="communication-item">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <strong>+91-8770103190</strong>
+                </div>
+                <div class="communication-item">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <strong>ashish.rameshan@zemosolabs.com</strong>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://in.linkedin.com/in/ashishrameshan" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/ashishrameshan" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </section>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
